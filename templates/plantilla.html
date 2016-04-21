@@ -1,0 +1,17 @@
+<html>
+
+
+{{formulario}}
+<title>Eva Garcia. Practica 2 </title>
+<b>Introduce una nueva url </b>
+
+<form action="/post" method="POST">
+      <br>url: <input type="text" name="url">
+      <br><input type="submit" value="Anadir contenido">
+</form>
+
+<br>
+<b>Lista de todas las url introducidas</b>
+{{lista|safe}}
+
+</html>
